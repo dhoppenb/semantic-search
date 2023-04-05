@@ -1,0 +1,12 @@
+name: streamlit-semantic-search
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pip
+  - pip:
+    - pandas
+    - streamlit
+    - openai
+    - tiktoken
